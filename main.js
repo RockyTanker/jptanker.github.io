@@ -73,28 +73,28 @@ function GetExtraHeaderInfo (TypeOfCLSS) {
 
         case "Newsletter":
 
-            return ["Waiting for data", "Svilar is suing me"]
+            return ["データを待っています...", "東京で人質に取られている"]
             break;
         
         
         case "MapQueue":
 
-            return ["About Map Queue", "View List", "Search", "Create new entry"]
+            return ["マップキューについて", "リストを見る", "検索", "新しいエントリを作成する"]
             break;
         
         case "MyWork":
 
-            return ["TRIA.os/FE2CM Related Works", "YouTube Related Works", "Project List"]
+            return ["TRIA.os/FE2CM 関連事業", "YouTube 関連事業", "プロジェクト一覧"]
             break;
 
         case "About":
 
-            return ["Placeholder Video is from Remember the Flowers", "Myself", "Software I use", "Using my work?", "Commissions Policy"]
+            return ["プレースホルダービデオ", "自分自身", "私が使用しているソフトウェア", "私の作品を利用しますか？", "手数料ポリシー"]
             break;
         
         case "Contact":
 
-            return ["Get a Commission", "My Socials", "Discord Server"]
+            return ["コミッションを受け取る", "私のソーシャル", "ディスコードサーバー"]
             break;
     }
 }
